@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		191098CA1A2ADB8C00A930E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 191098CC1A2ADB8C00A930E9 /* InfoPlist.strings */; };
 		250D78191A282CCE00FFA4DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250D78181A282CCE00FFA4DF /* AppDelegate.swift */; };
 		250D781B1A282CCE00FFA4DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 250D781A1A282CCE00FFA4DF /* ViewController.swift */; };
 		250D781E1A282CCE00FFA4DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 250D781C1A282CCE00FFA4DF /* Main.storyboard */; };
@@ -27,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		191098CB1A2ADB8C00A930E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		191098CD1A2ADD4900A930E9 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		250D78131A282CCE00FFA4DF /* OreKin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OreKin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		250D78171A282CCE00FFA4DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		250D78181A282CCE00FFA4DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -95,6 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				250D78171A282CCE00FFA4DF /* Info.plist */,
+				191098CC1A2ADB8C00A930E9 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -185,6 +189,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 250D780A1A282CCE00FFA4DF;
 			productRefGroup = 250D78141A282CCE00FFA4DF /* Products */;
@@ -203,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				250D781E1A282CCE00FFA4DF /* Main.storyboard in Resources */,
+				191098CA1A2ADB8C00A930E9 /* InfoPlist.strings in Resources */,
 				250D78231A282CCE00FFA4DF /* LaunchScreen.xib in Resources */,
 				250D78201A282CCE00FFA4DF /* Images.xcassets in Resources */,
 			);
@@ -246,6 +252,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		191098CC1A2ADB8C00A930E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				191098CB1A2ADB8C00A930E9 /* Base */,
+				191098CD1A2ADD4900A930E9 /* ja */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		250D781C1A282CCE00FFA4DF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
