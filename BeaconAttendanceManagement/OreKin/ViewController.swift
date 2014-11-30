@@ -23,7 +23,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
     let flatBlueColor:UIColor = UIColor(red: 0.1607843137254902, green: 0.5019607843137255, blue: 0.7254901960784313, alpha: 1.0)
     let flatGreyColor:UIColor = UIColor(red: 0.5843137254901961, green: 0.6470588235294118, blue: 0.6509803921568628, alpha: 1.0)
     
-    var dateFormatter : NSDateFormatter!
+    var dateFormatter = NSDateFormatter()
     var region  = CLBeaconRegion()
     var manager = CLLocationManager()
 
@@ -41,7 +41,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate{
         
         var timer = NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: Selector("onTimer"), userInfo: nil, repeats: true)
 
-        self.dateFormatter = NSDateFormatter()
         self.dateFormatter.dateStyle = NSDateFormatterStyle.MediumStyle
         self.dateFormatter.timeStyle = NSDateFormatterStyle.MediumStyle
         
